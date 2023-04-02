@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">PortfolioApp</string>
+
+    <string name="job_name">Mobile Developer</string>
+    <string name="lorem_text_1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</string>
+    <string name="lorem_text_2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</string>
+    <string name="current_job_post">Current Job Post</string>
+    <string name="diploma">Computer Science Diploma</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="experience">Professional Experience</string>
+    <string name="our_team">Our Team</string>
+    <string name="portfolio">Portfolio</string>
+
+</resources>

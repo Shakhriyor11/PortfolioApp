@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/circle_cv"
+        android:layout_width="12dp"
+        android:layout_height="12dp"
+        android:src="@drawable/circle_cv"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/view"
+        app:layout_editor_absoluteX="1dp"
+        app:layout_editor_absoluteY="2dp"/>
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="1dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        android:background="#d7d7d7"
+        app:layout_constraintTop_toBottomOf="@id/circle_cv"
+        app:layout_constraintStart_toStartOf="@id/circle_cv"
+        app:layout_constraintEnd_toEndOf="@id/circle_cv"
+        app:layout_constraintBottom_toBottomOf="@id/tvCvDescription"/>
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello"
+        android:layout_marginStart="16dp"
+        app:layout_constraintTop_toTopOf="@id/circle_cv"
+        app:layout_constraintStart_toEndOf="@id/circle_cv"
+        app:layout_constraintBottom_toBottomOf="@id/circle_cv"/>
+
+    <TextView
+        android:id="@+id/tvCvDescription"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/lorem_text_2"
+        android:justificationMode="inter_word"
+        android:lineSpacingExtra="4sp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:padding="8dp"
+        android:layout_marginHorizontal="16dp"
+        app:layout_constraintTop_toBottomOf="@id/tvTitle"
+        app:layout_constraintStart_toEndOf="@id/circle_cv"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
